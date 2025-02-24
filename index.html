@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Simple Expense Tracker</h2>
+        <div class="amount-box">Total Deposit: <span id="total-deposit">0</span> ৳</div>
+        <div class="amount-box">Total Withdraw: <span id="total-withdraw">0</span> ৳</div>
+        <div class="amount-box">Total Balance: <span id="total-balance">0</span> ৳</div>
+        <input type="number" id="amount" placeholder="Enter amount">
+        <br>
+        <button class="deposit-btn" onclick="deposit()">Deposit</button>
+        <button class="withdraw-btn" onclick="withdraw()">Withdraw</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
